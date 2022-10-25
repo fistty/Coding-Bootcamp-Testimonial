@@ -141,13 +141,10 @@ main {
   border: none;
 }
 
-
 .pattern-curve > img {
   max-width: 100%;
   display: block;
 }
-
-
 
 @media screen and (min-width: 75rem) {
   .card {
@@ -163,6 +160,13 @@ main {
     height: 100%;
     width: 43.5625rem;
     padding-top: 3.9375rem;
+  }
+
+  .image-container > .button-container {
+    left: 142px;
+    bottom: 2.225rem;
+    width: 112px;
+    height: 56px;
   }
 
   .image-container > img {
