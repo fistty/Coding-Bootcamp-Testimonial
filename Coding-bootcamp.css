@@ -9,7 +9,7 @@
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 .attribution a {
@@ -22,7 +22,7 @@
 }
 
 body {
-  font-size: 32px;
+  font-size: 2rem;
   font-family: "Inter", sans-serif;
   padding-top: 24px;
 }
@@ -33,12 +33,13 @@ button {
 
 main {
   display: flex;
-  min-height: 100vh;
+  min-height: 89vh;
   align-items: center;
+  position: relative;
 }
 
 .card {
-  width: calc(100% - 48px);
+  width: calc(100% - 3rem);
   margin: 0 auto;
   position: relative;
   display: flex;
@@ -50,31 +51,31 @@ main {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  width: 327px;
-  height: 308px;
+  width: 20.4375rem;
+  height: 19.25rem;
   margin: 0 auto;
   position: relative;
   display: flex;
   justify-content: center;
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 
 .image-container > img {
   display: block;
   max-width: 100%;
-  width: 254px;
-  height: 254px;
-  border-radius: 5px;
-  box-shadow: 2px 48px 20px -12px rgb(0 0 0 / 10%);
+  width: 15.875rem;
+  height: 15.875rem;
+  border-radius: 0.3125rem;
+  box-shadow: 0.125rem 3rem 1.25rem -0.75rem rgb(0 0 0 / 10%);
 }
 
 .image-container > .button-container {
   position: absolute;
-  bottom: 2px;
+  bottom: 0.125rem;
   background-color: white;
-  width: 80px;
-  height: 40px;
-  border-radius: 50px;
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 3.125rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -83,8 +84,8 @@ main {
 .button-container > button {
   background-color: white;
   border: none;
-  width: 25px;
-  height: 25px;
+  width: 1.5625rem;
+  height: 1.5625rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,91 +101,91 @@ main {
 
 .pattern-quotes {
   position: absolute;
-  width: 60px;
-  height: 50px;
+  width: 3.75rem;
+  height: 3.125rem;
   left: 50%;
-  top: -29px;
+  top: -1.8125rem;
   transform: translateX(-50%);
 }
 
 .paragraph {
-  width: calc(100% - 32px);
+  width: calc(100% - 2rem);
   margin: 0 auto;
-  margin-top: 60px;
+  margin-top: 3.75rem;
   position: relative;
   text-align: center;
-  font-size: 17px;
-  max-width: 308px;
+  font-size: 1.0625rem;
+  max-width: 19.25rem;
 }
 
 .profile-info {
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 
 .profile-name {
   text-align: center;
   font-weight: 700;
   color: var(--DarkBlue);
-  font-size: 15px;
+  font-size: 0.9375rem;
 }
 
 .profile-job {
   text-align: center;
   font-weight: 500;
   color: var(--GrayishBlue);
-  font-size: 15px;
-  margin-top: 1px;
+  font-size: 0.9375rem;
+  margin-top: 0.0625rem;
 }
 
 .pattern-curve {
-  position: absolute;
-  left: -20px;
-  top: 554px;
+  border: none;
 }
+
 
 .pattern-curve > img {
   max-width: 100%;
   display: block;
 }
 
-@media screen and (min-width: 1200px) {
+
+
+@media screen and (min-width: 75rem) {
   .card {
     display: flex;
     flex-direction: row-reverse;
-    max-width: 1202px;
-    height: 658px;
+    max-width: 75.125rem;
+    height: 41.125rem;
     justify-content: center;
-    /* align-items: center; */
   }
 
   .image-container {
     margin: unset;
     height: 100%;
-    width: 697px;
-    padding-top: 63px;
+    width: 43.5625rem;
+    padding-top: 3.9375rem;
   }
 
   .image-container > img {
     display: block;
     max-width: 100%;
-    width: 540px;
-    height: 540px;
-    box-shadow: 2px 48px 20px -12px rgb(0 0 0 / 10%);
+    width: 33.75rem;
+    height: 33.75rem;
+    box-shadow: 0.125rem 3rem 1.25rem -0.75rem rgb(0 0 0 / 10%);
   }
 
   .text-container {
     position: relative;
-    width: 505px;
+    width: 31.5625rem;
   }
 
   .paragraph {
-    font-size: 32px;
+    font-size: 2rem;
     position: absolute;
     top: 50%;
-    left: 2px;
+    left: 0.125rem;
     transform: translateY(-50%);
     max-width: unset;
-    width: 638px;
+    width: 39.875rem;
     text-align: left;
     margin-top: unset;
   }
@@ -192,27 +193,37 @@ main {
   .pattern-quotes {
     width: unset;
     height: unset;
-    top: -65px;
-    left: 98px;
+    top: -4.0625rem;
+    left: 6.125rem;
     transform: unset;
   }
 
   .profile-info {
     display: flex;
-    gap: 9px;
+    gap: 0.5625rem;
     position: absolute;
-    top: 439px;
+    top: 27.4375rem;
   }
 
   .profile-name {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
+
   .profile-job {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-top: unset;
   }
+
   .pattern-curve {
-    bottom: -200px;
-    display: none;
+    position: relative;
+    bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (min-height: 660px) {
+  .pattern-curve {
+    bottom: -12.5rem;
+    position: absolute;
+    bottom: 0px;
   }
 }
