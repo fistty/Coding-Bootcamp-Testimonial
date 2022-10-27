@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/notifications-page-double-click-function-3t4DbQ0J7L)
+- Solution URL: [Frontend Solution](https://www.frontendmentor.io/solutions/coding-bootcamp-testimonials-slider-uewoOa0rJs)
 - Live Site URL: [Netlify Live Site](https://fistty-coding-bootcamp.netlify.app/)
 
 ## My process
